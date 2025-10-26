@@ -5,15 +5,16 @@ import ConfigPanel from './components/ConfigPanel';
 import Footer from './components/Footer';
 
 const MODELS = [
-  { id: 'sedan', name: 'Sedan', color: '#2563eb', body: 'sedan' },
-  { id: 'suv', name: 'SUV', color: '#ef4444', body: 'suv' },
-  { id: 'coupe', name: 'Coupe', color: '#8b5cf6', body: 'coupe' },
+  { id: 'bmw_sedan', name: 'BMW 3 Series Sedan', color: '#1e40af' },
+  { id: 'bmw_coupe', name: 'BMW 4 Series Coupe', color: '#7c3aed' },
+  { id: 'bmw_xm', name: 'BMW XM (SUV)', color: '#dc2626' },
 ];
 
 const WHEELS = [
-  { id: 'classic', name: 'Classic 5-Spoke' },
-  { id: 'sport', name: 'Sport Star' },
-  { id: 'aero', name: 'Aero Turbine' },
+  { id: 'bmw_825m', name: 'BMW M Double-spoke 825M' },
+  { id: 'bmw_740m', name: 'BMW Star-spoke 740M' },
+  { id: 'bbs_lm', name: 'BBS LM' },
+  { id: 'aero_turbine', name: 'Aero Turbine' },
 ];
 
 export default function App() {

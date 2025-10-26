@@ -15,10 +15,10 @@ export default function Hero() {
       <div className="relative z-10 flex h-full items-center justify-center text-center px-6">
         <div>
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight">
-            Build your ride in real time
+            Configure real BMW models in real time
           </h1>
           <p className="mt-4 text-white/80 max-w-2xl mx-auto">
-            Select a model and swap wheels with buttery-smooth, animated transitions.
+            Pick a BMW model and swap between authentic wheel styles with smooth, animated transitions.
           </p>
         </div>
       </div>
